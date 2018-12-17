@@ -16,9 +16,7 @@ public class Prueba_Dibujo {
 		miMarco.setVisible(true);
 		
 		miMarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
-		
-		
+						
 	}
 
 }
@@ -33,9 +31,7 @@ class MarcoConDibujos extends JFrame{
 		
 		LaminaConFiguras miLamina=new LaminaConFiguras();
 		add(miLamina);
-		
-		
-		
+				
 	}
 }
 
@@ -90,5 +86,8 @@ class LaminaConFiguras extends JPanel{
 		circulo.setFrameFromCenter(centroX, centroY, centroX + radio, centroY + radio);
 		
 		g2.draw(circulo);
+		
+		
+		
 	}
 }
